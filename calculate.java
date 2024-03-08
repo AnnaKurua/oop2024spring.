@@ -3,7 +3,7 @@ public class calculate {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-            System.out.println("Enter two numbers you wish to compute: "); //now I want to make sure the user put in two numbers, if it's only one, or three, the question will repeat
+            System.out.println("Enter two numbers you wish to compute: ");
             double num1 = scanner.nextInt();
             double num2 = scanner.nextInt();
             double add = num1 + num2;
